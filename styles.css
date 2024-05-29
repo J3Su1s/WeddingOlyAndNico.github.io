@@ -38,24 +38,35 @@ header h1 {
     margin: 0;
 }
 
+
+
 /* Navigation Styles */
 nav {
+    background-color: #decba4; /* Light cream color */
     text-align: center;
-    margin: 1em 0;
+    padding: 1em 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    border-top: 2px solid #a68b6a; /* Decorative border at the top */
+    border-bottom: 2px solid #a68b6a; /* Decorative border at the bottom */
+    margin-bottom: 2em;
 }
 
 nav a {
     margin: 0 1em;
-    color: #a68b6a; /* Dark cream color */
+    color: #5b5b5b; /* Soft dark color for text */
     text-decoration: none;
     font-weight: bold;
     font-size: 1.2em;
     transition: color 0.3s;
+    padding: 0.5em 1em;
 }
 
 nav a:hover {
     color: #6b4e24; /* Darker shade for hover effect */
+    background-color: #fff2e1; /* Light background for hover effect */
+    border-radius: 5px; /* Rounded corners for hover effect */
 }
+
 
 /* Container Styles */
 .container {
