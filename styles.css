@@ -174,3 +174,13 @@ a:hover {
         font-size: 3em;
     }
 }
+
+/* Map Frame Styles */
+.map-frame {
+    border: 5px solid #a68b6a; /* Frame color */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Ensures the iframe stays within the frame */
+    max-width: 100%; /* Responsive width */
+    margin: 0 auto; /* Center the map */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
